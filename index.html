@@ -6,57 +6,98 @@
     <title>Your Company Name</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 2em;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
             line-height: 1.6;
         }
-        h1, h2 {
-            color: #333;
+
+        header, main, footer {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
         }
+
+        header h1 {
+            text-align: center;
+            color: #4CAF50; /* A green shade for the main heading */
+        }
+
         hr {
+            border: 0;
+            height: 1px;
+            background: #e0e0e0;
             margin: 2em 0;
+        }
+
+        h2 {
+            border-bottom: 2px solid #4CAF50; /* Green border for subheadings */
+            padding-bottom: 5px;
+        }
+
+        ul, ol {
+            margin-left: 20px;
+        }
+
+        a {
+            color: #4CAF50; /* Green color for links */
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
         }
     </style>
 </head>
 <body>
 
-<h1>Welcome to Your Company Name</h1>
-<p>We specialize in fast and affordable penetration testing, ensuring your business remains secure against evolving threats.</p>
+<header>
+    <h1>Welcome to Your Company Name</h1>
+</header>
 
-<hr>
+<main>
+    <h2>About Us</h2>
+    <p>At Your Company Name, we believe in robust cybersecurity without breaking the bank. Our team of experienced cybersecurity analysts is dedicated to providing top-tier penetration testing services swiftly, so you can focus on what you do best—running your business.</p>
 
-<h2>About Us</h2>
-<p>At Your Company Name, we believe in robust cybersecurity without breaking the bank. Our team of experienced cybersecurity analysts is dedicated to providing top-tier penetration testing services swiftly, so you can focus on what you do best—running your business.</p>
+    <hr>
 
-<hr>
+    <h2>Our Services</h2>
+    <h3>Penetration Testing</h3>
+    <ul>
+        <li><strong>Fast</strong>: Our team quickly identifies vulnerabilities without compromising on quality.</li>
+        <li><strong>Affordable</strong>: Competitive pricing tailored to your business needs.</li>
+        <li><strong>Comprehensive</strong>: Covering web applications, networks, and more.</li>
+    </ul>
 
-<h2>Our Services</h2>
-<h3>Penetration Testing</h3>
-<ul>
-    <li><strong>Fast</strong>: Our team quickly identifies vulnerabilities without compromising on quality.</li>
-    <li><strong>Affordable</strong>: Competitive pricing tailored to your business needs.</li>
-    <li><strong>Comprehensive</strong>: Covering web applications, networks, and more.</li>
-</ul>
+    <hr>
 
-<hr>
+    <h2>Why Choose Us?</h2>
+    <ol>
+        <li><strong>Experienced Team</strong>: Our analysts are seasoned professionals with industry-recognized certifications.</li>
+        <li><strong>Tailored Solutions</strong>: Every business is unique, and so are our pen-testing strategies.</li>
+        <li><strong>Clear Communication</strong>: Understand your security posture with clear, actionable reports.</li>
+    </ol>
 
-<h2>Why Choose Us?</h2>
-<ol>
-    <li><strong>Experienced Team</strong>: Our analysts are seasoned professionals with industry-recognized certifications.</li>
-    <li><strong>Tailored Solutions</strong>: Every business is unique, and so are our pen-testing strategies.</li>
-    <li><strong>Clear Communication</strong>: Understand your security posture with clear, actionable reports.</li>
-</ol>
+    <hr>
 
-<hr>
+    <h2>Contact</h2>
+    <p>Got questions or interested in our services? Reach out to us!</p>
+    <p><strong>Email</strong>: <a href="mailto:contact@yourdomain.com">contact@yourdomain.com</a></p>
+    <p><strong>Phone</strong>: (123) 456-7890</p>
+</main>
 
-<h2>Contact</h2>
-<p>Got questions or interested in our services? Reach out to us!</p>
-<p><strong>Email</strong>: contact@yourdomain.com</p>
-<p><strong>Phone</strong>: (123) 456-7890</p>
-
-<hr>
-
-<p>&copy; 2023 Your Company Name. All rights reserved.</p>
+<footer>
+    <p>&copy; 2023 Your Company Name. All rights reserved.</p>
+</footer>
 
 </body>
 </html>
